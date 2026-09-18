@@ -28,9 +28,32 @@ export default function DadosCliente(props) {
 }
 
 const styles = StyleSheet.create({
-  areaCliente: { marginTop: 24 },
-  tituloSecao: { fontSize: 20, fontWeight: 'bold', marginBottom: 12 },
-  rotulo: { fontSize: 14, fontWeight: 'bold', marginBottom: 6 },
-  rotuloTelefone: { fontSize: 14, fontWeight: 'bold', marginTop: 14, marginBottom: 6 },
-  campo: { borderWidth: 1, borderColor: '#cbd5e1', borderRadius: 10, paddingHorizontal: 12, paddingVertical: 10, fontSize: 16, backgroundColor: '#ffffff' },
+  areaCliente: {
+    marginTop: 24,
+  },
+  tituloSecao: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginBottom: 12,
+  },
+  rotulo: {
+    fontSize: 14,
+    fontWeight: 'bold',
+    marginBottom: 6,
+  },
+  rotuloTelefone: {
+    fontSize: 14,
+    fontWeight: 'bold',
+    marginTop: 14,
+    marginBottom: 6,
+  },
+  campo: {
+    borderWidth: 1,
+    borderColor: '#cbd5e1',
+    borderRadius: 10,
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+    fontSize: 16,
+    backgroundColor: '#ffffff',
+  },
 });
