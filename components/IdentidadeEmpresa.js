@@ -11,7 +11,9 @@ export default function IdentidadeEmpresa() {
       </View>
 
       <Image
-        source={require('../assets/santa-filomena.png')}
+        source={{
+          uri: 'https://raw.githubusercontent.com/mundobitbyte/santa-filomena-agua-e-gas-snack/main/assets/santa-filomena.png',
+        }}
         style={styles.imagem}
         resizeMode="contain"
       />
